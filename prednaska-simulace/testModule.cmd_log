@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/vofy/Xilinx/simulace/testModule.xst" -ofn "/home/vofy/Xilinx/simulace/testModule.syr" 

@@ -1,0 +1,6 @@
+V3 5
+FL /home/vofy/Xilinx/simulace/cnt.vhd 2023/04/04.10:21:39 P.20131013
+EN work/cnt 1680596504 FL /home/vofy/Xilinx/simulace/cnt.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/cnt/Behavioral 1680596505 \
+      FL /home/vofy/Xilinx/simulace/cnt.vhd EN work/cnt 1680596504
