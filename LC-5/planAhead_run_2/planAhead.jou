@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 15 13:48:49 2023
+# Process ID: 3552
+# Log file: C:/BDIO/243511/uloha5/planAhead_run_2/planAhead.log
+# Journal file: C:/BDIO/243511/uloha5/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/BDIO/243511/uloha5/pa.fromNetlist.tcl
+startgroup
+set_property package_pin K12 [get_ports A]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports H]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports O]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports Tmax]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports Tmin]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports Vin]
+endgroup
+startgroup
+set_property package_pin L12 [get_ports Vout]
+endgroup
+save_constraints

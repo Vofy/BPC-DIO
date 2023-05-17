@@ -1,0 +1,12 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "A" LOC = F12;
+NET "B" LOC = G12;
+NET "OUT6" LOC = P12;
+NET "OUT5" LOC = N12;
+NET "OUT4" LOC = P13;
+NET "OUT3" LOC = N14;
+NET "OUT2" LOC = L12;
+NET "OUT0" LOC = K12;
+NET "OUT1" LOC = P14;

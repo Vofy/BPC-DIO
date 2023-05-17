@@ -1,0 +1,86 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 08 14:15:29 2023
+# Process ID: 2960
+# Log file: C:/BDIO/243511/uloha3/planAhead_run_2/planAhead.log
+# Journal file: C:/BDIO/243511/uloha3/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/BDIO/243511/uloha3/pa.fromNetlist.tcl
+startgroup
+set_property package_pin F12 [get_ports {x[0]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {x[1]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {x[2]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {x[3]}]
+endgroup
+startgroup
+set_property package_pin E13 [get_ports {an[3]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {an[2]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {an[1]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {an[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  {leds[6]}]]
+startgroup
+set_property package_pin E14 [get_ports {leds[0]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {leds[1]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {leds[2]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {leds[3]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {leds[4]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {leds[5]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {leds[6]}]
+endgroup
+save_constraints
+set_property package_pin "" [get_ports [list  {leds[6]}]]
+set_property package_pin "" [get_ports [list  {leds[5]}]]
+set_property package_pin "" [get_ports [list  {leds[4]}]]
+set_property package_pin "" [get_ports [list  {leds[3]}]]
+set_property package_pin "" [get_ports [list  {leds[1]}]]
+set_property package_pin "" [get_ports [list  {leds[2]}]]
+set_property package_pin "" [get_ports [list  {leds[0]}]]
+startgroup
+set_property package_pin E14 [get_ports {leds[6]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {leds[5]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {leds[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {leds[3]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {leds[2]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {leds[1]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {leds[0]}]
+endgroup
+save_constraints -force

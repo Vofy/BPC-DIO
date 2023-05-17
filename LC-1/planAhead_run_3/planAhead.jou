@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Feb 15 13:44:22 2023
+# Process ID: 1032
+# Log file: C:/BDIO/243511/ukol1/planAhead_run_3/planAhead.log
+# Journal file: C:/BDIO/243511/ukol1/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/BDIO/243511/ukol1/pa.fromNetlist.tcl
+startgroup
+set_property package_pin F12 [get_ports A]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports B]
+endgroup
+set_property package_pin "" [get_ports [list  OUT0]]
+startgroup
+set_property package_pin P12 [get_ports OUT6]
+endgroup
+startgroup
+set_property package_pin N12 [get_ports OUT5]
+endgroup
+startgroup
+set_property package_pin P13 [get_ports OUT4]
+endgroup
+startgroup
+set_property package_pin N14 [get_ports OUT3]
+endgroup
+startgroup
+set_property package_pin L12 [get_ports OUT2]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports OUT1]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports OUT0]
+endgroup
+set_property is_loc_fixed false [get_ports [list  OUT1]]
+set_property is_loc_fixed true [get_ports [list  OUT1]]
+save_constraints

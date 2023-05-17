@@ -1,0 +1,31 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/BDIO/243511/uloha11/tb_top_isim_beh.exe" -prj "C:/BDIO/243511/uloha11/tb_top_beh.prj" "work.tb_top" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/BDIO/243511/uloha11/vzorkovac.vhd" into library work
+Parsing VHDL file "C:/BDIO/243511/uloha11/komparator.vhd" into library work
+Parsing VHDL file "C:/BDIO/243511/uloha11/ffd.vhd" into library work
+Parsing VHDL file "C:/BDIO/243511/uloha11/citac_intenzity.vhd" into library work
+Parsing VHDL file "C:/BDIO/243511/uloha11/citac.vhd" into library work
+Parsing VHDL file "C:/BDIO/243511/uloha11/top.vhd" into library work
+Parsing VHDL file "C:/BDIO/243511/uloha11/tb_top.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity citac_intenzity [citac_intenzity_default]
+Compiling architecture behavioral of entity citac [citac_default]
+Compiling architecture behavioral of entity vzorkovac [vzorkovac_default]
+Compiling architecture behavioral of entity komparator [komparator_default]
+Compiling architecture behavioral of entity ffd [ffd_default]
+Compiling architecture behavioral of entity top [top_default]
+Compiling architecture behavior of entity tb_top
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 17 VHDL Units
+Built simulation executable C:/BDIO/243511/uloha11/tb_top_isim_beh.exe
+Fuse Memory Usage: 34684 KB
+Fuse CPU Usage: 390 ms

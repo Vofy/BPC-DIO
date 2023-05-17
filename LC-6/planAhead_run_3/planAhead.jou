@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Mar 22 14:53:18 2023
+# Process ID: 7620
+# Log file: C:/BDIO/243511/uloha6/planAhead_run_3/planAhead.log
+# Journal file: C:/BDIO/243511/uloha6/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/BDIO/243511/uloha6/pa.fromNetlist.tcl
+startgroup
+set_property package_pin M13 [get_ports clk]
+endgroup
+save_constraints

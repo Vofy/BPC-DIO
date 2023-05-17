@@ -1,0 +1,271 @@
+(edif ukol5
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2023 2 22 14 41 41)
+      (program "Xilinx ngc2edif" (version "P.20131013"))
+      (author "Xilinx. Inc ")
+      (comment "This EDIF netlist is to be used within supported synthesis tools")
+      (comment "for determining resource/timing estimates of the design component")
+      (comment "represented by this netlist.")
+      (comment "Command line: -mdp2sp -w -secure ukol5.ngc ukol5.edif ")))
+  (external UNISIMS
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell MUXF5
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port S
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell LUT3
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I0
+              (direction INPUT)
+            )
+            (port I1
+              (direction INPUT)
+            )
+            (port I2
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell IBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+    (cell OBUF
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port I
+              (direction INPUT)
+            )
+            (port O
+              (direction OUTPUT)
+            )
+          )
+      )
+    )
+  )
+
+  (library ukol5_lib
+    (edifLevel 0)
+    (technology (numberDefinition))
+    (cell ukol5
+      (cellType GENERIC)
+        (view view_1
+          (viewType NETLIST)
+          (interface
+            (port a
+              (direction INPUT)
+            )
+            (port b
+              (direction INPUT)
+            )
+            (port c
+              (direction INPUT)
+            )
+            (port d
+              (direction INPUT)
+            )
+            (port y
+              (direction OUTPUT)
+            )
+            (port (array (rename s "s<1:0>") 2)
+              (direction INPUT))
+            (designator "xc3s200-5-ft256")
+            (property TYPE (string "ukol5") (owner "Xilinx"))
+            (property BUS_INFO (string "2:INPUT:s<1:0>") (owner "Xilinx"))
+            (property NLW_UNIQUE_ID (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_TAG (integer 0) (owner "Xilinx"))
+            (property NLW_MACRO_ALIAS (string "ukol5_ukol5") (owner "Xilinx"))
+          )
+          (contents
+            (instance Mmux_y_2_f5
+              (viewRef view_1 (cellRef MUXF5 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename Mmux_y_4_renamed_0 "Mmux_y_4")
+              (viewRef view_1 (cellRef LUT3 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "E4") (owner "Xilinx"))
+            )
+            (instance (rename Mmux_y_3_renamed_1 "Mmux_y_3")
+              (viewRef view_1 (cellRef LUT3 (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+              (property INIT (string "E4") (owner "Xilinx"))
+            )
+            (instance (rename a_IBUF_renamed_2 "a_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename b_IBUF_renamed_3 "b_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename c_IBUF_renamed_4 "c_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename d_IBUF_renamed_5 "d_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename s_1_IBUF_renamed_6 "s_1_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename s_0_IBUF_renamed_7 "s_0_IBUF")
+              (viewRef view_1 (cellRef IBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (instance (rename y_OBUF_renamed_8 "y_OBUF")
+              (viewRef view_1 (cellRef OBUF (libraryRef UNISIMS)))
+              (property XSTLIB (boolean (true)) (owner "Xilinx"))
+            )
+            (net Mmux_y_3
+              (joined
+                (portRef O (instanceRef Mmux_y_3_renamed_1))
+                (portRef I1 (instanceRef Mmux_y_2_f5))
+              )
+            )
+            (net Mmux_y_4
+              (joined
+                (portRef O (instanceRef Mmux_y_4_renamed_0))
+                (portRef I0 (instanceRef Mmux_y_2_f5))
+              )
+            )
+            (net a
+              (joined
+                (portRef a)
+                (portRef I (instanceRef a_IBUF_renamed_2))
+              )
+            )
+            (net a_IBUF
+              (joined
+                (portRef I1 (instanceRef Mmux_y_4_renamed_0))
+                (portRef O (instanceRef a_IBUF_renamed_2))
+              )
+            )
+            (net b
+              (joined
+                (portRef b)
+                (portRef I (instanceRef b_IBUF_renamed_3))
+              )
+            )
+            (net b_IBUF
+              (joined
+                (portRef I2 (instanceRef Mmux_y_4_renamed_0))
+                (portRef O (instanceRef b_IBUF_renamed_3))
+              )
+            )
+            (net c
+              (joined
+                (portRef c)
+                (portRef I (instanceRef c_IBUF_renamed_4))
+              )
+            )
+            (net c_IBUF
+              (joined
+                (portRef I1 (instanceRef Mmux_y_3_renamed_1))
+                (portRef O (instanceRef c_IBUF_renamed_4))
+              )
+            )
+            (net d
+              (joined
+                (portRef d)
+                (portRef I (instanceRef d_IBUF_renamed_5))
+              )
+            )
+            (net d_IBUF
+              (joined
+                (portRef I2 (instanceRef Mmux_y_3_renamed_1))
+                (portRef O (instanceRef d_IBUF_renamed_5))
+              )
+            )
+            (net (rename s_0_ "s<0>")
+              (joined
+                (portRef (member s 1))
+                (portRef I (instanceRef s_0_IBUF_renamed_7))
+              )
+            )
+            (net (rename s_1_ "s<1>")
+              (joined
+                (portRef (member s 0))
+                (portRef I (instanceRef s_1_IBUF_renamed_6))
+              )
+            )
+            (net s_0_IBUF
+              (joined
+                (portRef I0 (instanceRef Mmux_y_3_renamed_1))
+                (portRef I0 (instanceRef Mmux_y_4_renamed_0))
+                (portRef O (instanceRef s_0_IBUF_renamed_7))
+              )
+            )
+            (net s_1_IBUF
+              (joined
+                (portRef S (instanceRef Mmux_y_2_f5))
+                (portRef O (instanceRef s_1_IBUF_renamed_6))
+              )
+            )
+            (net y
+              (joined
+                (portRef y)
+                (portRef O (instanceRef y_OBUF_renamed_8))
+              )
+            )
+            (net y_OBUF
+              (joined
+                (portRef O (instanceRef Mmux_y_2_f5))
+                (portRef I (instanceRef y_OBUF_renamed_8))
+              )
+            )
+          )
+      )
+    )
+  )
+
+  (design ukol5
+    (cellRef ukol5
+      (libraryRef ukol5_lib)
+    )
+    (property PART (string "xc3s200-5-ft256") (owner "Xilinx"))
+  )
+)
+

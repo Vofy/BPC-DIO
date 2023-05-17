@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/BDIO/243511/uloha9/tb_uloha9_isim_beh.exe" -prj "C:/BDIO/243511/uloha9/tb_uloha9_beh.prj" "work.tb_uloha9" 

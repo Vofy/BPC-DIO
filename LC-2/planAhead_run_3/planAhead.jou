@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Feb 22 14:39:16 2023
+# Process ID: 4736
+# Log file: C:/BDIO/243511/uloha2/planAhead_run_3/planAhead.log
+# Journal file: C:/BDIO/243511/uloha2/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/BDIO/243511/uloha2/pa.fromNetlist.tcl

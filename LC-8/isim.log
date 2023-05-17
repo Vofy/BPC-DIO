@@ -1,0 +1,145 @@
+ISim log file
+Running: /home/vofy/Downloads/uloha8-nove/tb_ukol_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/vofy/Downloads/uloha8-nove/tb_ukol_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_ukol/uut/citac_jednotky/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_ukol/uut/citac_jednotky/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# run 50ns
+# run 50ns
+# run 50ns
+# run all
+Stopped at time : 161882935 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 46
+# run all
+Stopped at time : 186355445 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 37
+# run 50ns
+# run 50ns
+# run 50ns
+# run 50ns
+# run 50ns
+# run 50ns
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_ukol/uut/citac_jednotky/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# run 50ns
+# run 1s
+Stopped at time : 97702005 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 37
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_ukol/uut/citac_jednotky/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# run 2s
+Stopped at time : 1199205970 ns : File "/home/vofy/Downloads/uloha8-nove/tb_ukol.vhd" Line 73
+# run 2s
+Stopped at time : 1218010515 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 46
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_ukol/uut/citac_jednotky/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# run 2s
+Stopped at time : 186372575 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 37
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_ukol/uut/citac_jednotky/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# run 2s
+Stopped at time : 270255890 ns : File "/home/vofy/Downloads/uloha8-nove/tb_ukol.vhd" Line 73
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_ukol/uut/citac_jednotky/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# run 2s
+Stopped at time : 257198955 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 38
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_ukol/uut/citac_jednotky/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# run 2s
+Stopped at time : 232982505 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 46
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_ukol/uut/citac_jednotky/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+Finished circuit initialization process.
+# run 2s
+Stopped at time : 317130315 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 37
+# step
+Stopped at time : 317130315 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 38
+# step
+Stopped at time : 317130315 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 45
+# step
+Stopped at time : 317130315 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 46
+# step
+Stopped at time : 317130315 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 47
+# step
+Stopped at time : 317130320 ns : File "/home/vofy/Downloads/uloha8-nove/tb_ukol.vhd" Line 73
+# step
+Stopped at time : 317130320 ns : File "/home/vofy/Downloads/uloha8-nove/tb_ukol.vhd" Line 74
+# step
+Stopped at time : 317130320 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 29
+# step
+Stopped at time : 317130320 ns : File "/home/vofy/Downloads/uloha8-nove/mux.vhd" Line 46
+# step
+Stopped at time : 317130320 ns : File "/home/vofy/Downloads/uloha8-nove/citac.vhd" Line 45
+# step
+Stopped at time : 317130320 ns : File "/home/vofy/Downloads/uloha8-nove/citac.vhd" Line 45
+# step
+Stopped at time : 317130325 ns : File "/home/vofy/Downloads/uloha8-nove/tb_ukol.vhd" Line 75
+# step
+Stopped at time : 317130325 ns : File "/home/vofy/Downloads/uloha8-nove/tb_ukol.vhd" Line 76
+# step
+Stopped at time : 317130325 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 29
+# step
+Stopped at time : 317130325 ns : File "/home/vofy/Downloads/uloha8-nove/delicka.vhd" Line 30
+# exit 0

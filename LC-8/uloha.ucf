@@ -1,0 +1,21 @@
+
+
+NET "anody[3]" LOC = E13;
+NET "anody[2]" LOC = F14;
+NET "anody[1]" LOC = G14;
+NET "anody[0]" LOC = D14;
+
+NET "katody[6]" LOC = E14;
+NET "katody[5]" LOC = G13;
+NET "katody[4]" LOC = N15;
+NET "katody[3]" LOC = P15;
+NET "katody[2]" LOC = R16;
+NET "katody[1]" LOC = F13;
+NET "katody[0]" LOC = N16;
+
+NET "clk" LOC = T9;
+
+# PlanAhead Generated physical constraints 
+
+NET "DIR" LOC = K13;
+NET "reset" LOC = M13;

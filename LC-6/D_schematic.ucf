@@ -1,0 +1,26 @@
+
+
+NET "clk" CLOCK_DEDICATED_ROUTE = FALSE;
+
+
+
+NET "Q[0]" LOC = K12;
+NET "Q[1]" LOC = P14;
+NET "Q[2]" LOC = L12;
+NET "Q[3]" LOC = N14;
+NET "Q[4]" LOC = P13;
+NET "Q[5]" LOC = N12;
+NET "Q[6]" LOC = P12;
+NET "Q[7]" LOC = P11;
+NET "D[0]" LOC = F12;
+NET "D[1]" LOC = G12;
+NET "D[2]" LOC = H14;
+NET "D[3]" LOC = H13;
+NET "D[4]" LOC = J14;
+NET "D[5]" LOC = J13;
+NET "D[6]" LOC = K14;
+NET "D[7]" LOC = K13;
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = M13;

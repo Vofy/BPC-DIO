@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/vofy/Downloads/uloha8-nove/tb_ukol_isim_beh.exe" -prj "/home/vofy/Downloads/uloha8-nove/tb_ukol_beh.prj" "work.tb_ukol" 
